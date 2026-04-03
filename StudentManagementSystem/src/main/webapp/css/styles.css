@@ -1,0 +1,141 @@
+/* Page background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #eef2f3, #dfe9f3);
+    background: red;
+}
+
+/* Center container (home page box) */
+.container {
+    width: 60%;
+    margin: 80px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Buttons */
+button, .btn {
+    background: #6c9ff8;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    margin: 10px 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover, .btn:hover {
+    background: #4a7de0;
+}
+
+/* Form box */
+.form-box {
+    width: 400px;
+    margin: 80px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+/* Input fields */
+.field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.field label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.field input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #4a7de0;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+th {
+    background: #6c9ff8;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f5f7fa;
+}
+
+/* Center container properly */
+.container {
+    width: 500px;
+    margin: 120px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
+}
+
+/* Heading */
+.container h1 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+/* Button group spacing */
+.btn-group {
+    margin-top: 20px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #6c9ff8;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: #4a7de0;
+}
